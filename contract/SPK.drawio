@@ -1,0 +1,56 @@
+<mxfile host="65bd71144e">
+    <diagram id="kxd4G-dGoTuJjUTRxnBI" name="Page-1">
+        <mxGraphModel dx="876" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="User" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="120" width="200" height="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="2">
+                    <mxGeometry x="85" y="50" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Membuka halaman Contract" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+                    <mxGeometry x="40" y="110" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="18" parent="2" target="20">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="100" y="110" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="Tekan tombol pengaturan (detail contract) pada salah satu data yang&amp;nbsp;&lt;div&gt;ber-tipe (unit price)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+                    <mxGeometry x="40" y="210" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Sistem" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="120" width="200" height="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Menampilkan halaman Contract" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="16">
+                    <mxGeometry x="40" y="110" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="edgeStyle=none;html=1;" edge="1" parent="16" source="25" target="30">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Menampilkan detail contract beserta&amp;nbsp;&lt;div&gt;SPK-nya&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="16">
+                    <mxGeometry x="40" y="215" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="16">
+                    <mxGeometry x="85" y="310" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="20" target="21">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="21" target="23">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="420" y="310"/>
+                            <mxPoint x="220" y="310"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="23" target="25">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
