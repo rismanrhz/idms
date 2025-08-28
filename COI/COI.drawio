@@ -1,0 +1,45 @@
+<mxfile host="65bd71144e">
+    <diagram id="sRCjHTdpDc51G9ecrUw_" name="Page-1">
+        <mxGraphModel dx="1261" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="21" value="User" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="80" width="200" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="21" vertex="1">
+                    <mxGeometry x="85" y="40" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="21" source="22" target="24" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="100" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="" style="edgeStyle=none;html=1;" edge="1" parent="21" source="24" target="26">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Pilih Regulatory Compliance pada sidebar" style="rounded=1;whiteSpace=wrap;html=1;" parent="21" vertex="1">
+                    <mxGeometry x="50" y="110" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="Pilih COI" style="rounded=1;whiteSpace=wrap;html=1;" parent="21" vertex="1">
+                    <mxGeometry x="50" y="190" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Sistem" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="80" width="200" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="" style="edgeStyle=none;html=1;" edge="1" parent="28" source="29" target="32">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="Menampilkan halaman COI" style="rounded=1;whiteSpace=wrap;html=1;" parent="28" vertex="1">
+                    <mxGeometry x="50" y="190" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="28" vertex="1">
+                    <mxGeometry x="85" y="270" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="26" target="29">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

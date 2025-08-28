@@ -1,57 +1,57 @@
 <mxfile host="65bd71144e">
     <diagram id="h45oBpNNZm8qOu_TRnE5" name="Page-1">
-        <mxGraphModel dx="756" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1072" dy="347" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="3" value="User" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="40" y="80" width="200" height="1070" as="geometry"/>
+                <mxCell id="3" value="User" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="80" width="200" height="1020" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="3">
+                <mxCell id="4" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="3" vertex="1">
                     <mxGeometry x="85" y="50" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="Membuka halaman Contract" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+                <mxCell id="5" value="Pilih fitur contract" style="rounded=1;whiteSpace=wrap;html=1;" parent="3" vertex="1">
                     <mxGeometry x="40" y="110" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3" source="4" target="5">
+                <mxCell id="6" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="3" source="4" target="5" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="100" y="110" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="7" value="Tekan tombol pengaturan (detail contract) pada salah satu tipe lumpsum di halaman data contract" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+                <mxCell id="7" value="Tekan tombol setting (detail contract) pada salah satu tipe lumpsum di halaman data contract" style="rounded=1;whiteSpace=wrap;html=1;" parent="3" vertex="1">
                     <mxGeometry x="35" y="210" width="130" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="" style="edgeStyle=none;html=1;" edge="1" parent="3" source="9" target="10">
+                <mxCell id="8" value="" style="edgeStyle=none;html=1;" parent="3" source="9" target="10" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="Pilih week" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+                <mxCell id="9" value="Pilih week" style="rounded=1;whiteSpace=wrap;html=1;" parent="3" vertex="1">
                     <mxGeometry x="40" y="420" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="Masukkan plan progress (%)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+                <mxCell id="10" value="Masukkan plan progress (%)" style="rounded=1;whiteSpace=wrap;html=1;" parent="3" vertex="1">
                     <mxGeometry x="40" y="519" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" value="" style="edgeStyle=none;html=1;" edge="1" parent="3" source="32" target="35">
+                <mxCell id="31" value="" style="edgeStyle=none;html=1;" parent="3" source="32" target="35" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="32" value="Masukkan actual progress (%)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+                <mxCell id="32" value="Masukkan actual progress (%)" style="rounded=1;whiteSpace=wrap;html=1;" parent="3" vertex="1">
                     <mxGeometry x="40" y="619" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="33" value="" style="edgeStyle=none;html=1;" edge="1" parent="3" source="10" target="32">
+                <mxCell id="33" value="" style="edgeStyle=none;html=1;" parent="3" source="10" target="32" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="35" value="Unggah file progress" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+                <mxCell id="35" value="Unggah file progress" style="rounded=1;whiteSpace=wrap;html=1;" parent="3" vertex="1">
                     <mxGeometry x="40" y="719" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="Sistem" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="240" y="80" width="240" height="1070" as="geometry"/>
+                <mxCell id="13" value="Sistem" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="80" width="240" height="1020" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="Menampilkan halaman Contract" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="13">
+                <mxCell id="14" value="Menampilkan halaman Contract" style="rounded=1;whiteSpace=wrap;html=1;" parent="13" vertex="1">
                     <mxGeometry x="40" y="110" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="Menampilkan detail contract beserta&amp;nbsp;&lt;div&gt;progress&amp;nbsp;&lt;/div&gt;&lt;div&gt;pekerjaan-nya&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="13">
+                <mxCell id="15" value="Menampilkan detail contract beserta&amp;nbsp;&lt;div&gt;progress&amp;nbsp;&lt;/div&gt;&lt;div&gt;pekerjaan-nya&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="13" vertex="1">
                     <mxGeometry x="40" y="215" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="13">
+                <mxCell id="16" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="13" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="180" y="450"/>
@@ -60,13 +60,13 @@
                         <mxPoint x="160.00000000000023" y="350" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="17" value="Memilih tombol tambah pada fitur progress pekerjaan di halaman detail contract" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="13">
+                <mxCell id="17" value="Memilih tombol tambah pada fitur progress pekerjaan di halaman detail contract" style="rounded=1;whiteSpace=wrap;html=1;" parent="13" vertex="1">
                     <mxGeometry x="-170" y="315" width="130" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="Menampilkan formulir tambah data progress pekerjaan" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="13">
+                <mxCell id="18" value="Menampilkan formulir tambah data progress pekerjaan" style="rounded=1;whiteSpace=wrap;html=1;" parent="13" vertex="1">
                     <mxGeometry x="40" y="315" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="13" source="22" target="18">
+                <mxCell id="19" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="13" source="22" target="18" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="180" y="750"/>
@@ -74,36 +74,38 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="20" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="19">
+                <mxCell id="20" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19" vertex="1" connectable="0">
                     <mxGeometry x="0.1813" y="4" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="21" value="" style="edgeStyle=none;html=1;" edge="1" parent="13" source="22" target="24">
+                <mxCell id="21" value="" style="edgeStyle=none;html=1;" parent="13" source="22" target="24" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="Validasi Data" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="13">
+                <mxCell id="37" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="21">
+                    <mxGeometry x="-0.2286" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="Validasi Data" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="13" vertex="1">
                     <mxGeometry x="50" y="714" width="110" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" value="" style="edgeStyle=none;html=1;" edge="1" parent="13" source="24" target="26">
+                <mxCell id="23" value="" style="edgeStyle=none;html=1;" parent="13" source="24" target="26" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" value="Menyimpan data progress pekerjaan" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="13">
-                    <mxGeometry x="45" y="814" width="120" height="60" as="geometry"/>
+                <mxCell id="24" value="Menyimpan data progress pekerjaan" style="rounded=1;whiteSpace=wrap;html=1;" parent="13" vertex="1">
+                    <mxGeometry x="45" y="840" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" value="Ya" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="13">
-                    <mxGeometry x="105" y="784" width="40" height="30" as="geometry"/>
+                <mxCell id="26" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="13" vertex="1">
+                    <mxGeometry x="90" y="930" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="26" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="13">
-                    <mxGeometry x="90" y="904" width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="27" value="" style="edgeStyle=none;html=1;" edge="1" parent="13" source="17" target="18">
+                <mxCell id="27" value="" style="edgeStyle=none;html=1;" parent="13" source="17" target="18" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="5" target="14">
+                <mxCell id="28" value="" style="edgeStyle=none;html=1;" parent="1" source="5" target="14" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="29" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="14" target="7">
+                <mxCell id="29" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="14" target="7" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="340" y="270"/>
@@ -111,13 +113,13 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="30" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="7" target="15">
+                <mxCell id="30" value="" style="edgeStyle=none;html=1;" parent="1" source="7" target="15" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="34" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="35" target="22">
+                <mxCell id="34" value="" style="edgeStyle=none;html=1;" parent="1" source="35" target="22" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="36" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="18">
+                <mxCell id="36" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="18" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="340" y="475"/>

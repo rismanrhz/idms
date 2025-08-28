@@ -1,0 +1,75 @@
+<mxfile host="65bd71144e">
+    <diagram id="e8GGa0-SOJjvzrIaX3cz" name="Page-1">
+        <mxGraphModel dx="1072" dy="444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="User" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="80" width="200" height="500" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="2">
+                    <mxGeometry x="85" y="50" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2" source="3" target="6">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="100" y="140" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="" style="edgeStyle=none;html=1;" edge="1" parent="2" source="6" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Membuka halaman engineering data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+                    <mxGeometry x="40" y="110" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Pilih tombol hapus (icon stop) pada salah satu lampiran" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+                    <mxGeometry x="40" y="334" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2" source="9" target="28">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="300" y="200"/>
+                            <mxPoint x="100" y="200"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="Menampilkan halaman engineering data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+                    <mxGeometry x="240" y="110" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Pilih salah satu tombol (icon eye) pada kolom lampiran&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+                    <mxGeometry x="40" y="220" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Sistem" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="80" width="200" height="500" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="edgeStyle=none;html=1;" edge="1" parent="13" source="20" target="21">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Perubahan data tersimpan" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="13">
+                    <mxGeometry x="40" y="334" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="13">
+                    <mxGeometry x="85" y="434" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="Menampilkan halaman lampiran" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="13">
+                    <mxGeometry x="40" y="220" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="7">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="320" y="444" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="28" target="30">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="30" target="7">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="380" y="380"/>
+                            <mxPoint x="180" y="380"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,0 +1,112 @@
+<mxfile host="65bd71144e">
+    <diagram id="jF7HbkomybvoWHOOlttg" name="Page-1">
+        <mxGraphModel dx="1072" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="19" value="User" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="40" width="200" height="710" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="19" vertex="1">
+                    <mxGeometry x="85" y="40" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="19" source="20" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="100" y="110" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="Pilih fitur tipe peralatan" style="rounded=1;whiteSpace=wrap;html=1;" parent="19" vertex="1">
+                    <mxGeometry x="50" y="110" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Masukkan nama&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;tipe peralatan&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="19" vertex="1">
+                    <mxGeometry x="50" y="200" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="" style="edgeStyle=none;html=1;" edge="1" parent="19" source="39" target="41">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="Pilih kategori peralatan" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="19">
+                    <mxGeometry x="50" y="290" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="Pilih status" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="19">
+                    <mxGeometry x="50" y="380" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="Masukkan deskripsi tipe (opsional)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="19">
+                    <mxGeometry x="50" y="470" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="" style="edgeStyle=none;html=1;" edge="1" parent="19" source="41" target="45">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Sistem" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="40" width="200" height="710" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Menampilkan halaman tipe peralatan" style="rounded=1;whiteSpace=wrap;html=1;" parent="24" vertex="1">
+                    <mxGeometry x="50" y="110" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="Mengambil data dari kategori peralatan" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="24">
+                    <mxGeometry x="55" y="290" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="Menyimpan data&amp;nbsp;&lt;div&gt;tipe peralatan&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="24" vertex="1">
+                    <mxGeometry x="45" y="570" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="24" vertex="1">
+                    <mxGeometry x="90" y="650" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="" style="edgeStyle=none;html=1;" parent="24" source="32" target="33" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="Validasi data" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" parent="24" vertex="1">
+                    <mxGeometry x="55" y="465" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="edgeStyle=none;html=1;" parent="24" source="30" target="32" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="26" vertex="1" connectable="0">
+                    <mxGeometry x="0.0171" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1.004;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="24" source="30" target="25" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="170" y="495"/>
+                            <mxPoint x="170" y="225"/>
+                            <mxPoint x="170" y="135"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="28" vertex="1" connectable="0">
+                    <mxGeometry x="0.2813" y="-2" relative="1" as="geometry">
+                        <mxPoint y="21" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="22" target="25" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="450" y="200" as="sourcePoint"/>
+                        <mxPoint x="350" y="175" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="25" target="23" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="420" y="220"/>
+                            <mxPoint x="220" y="220"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="23" target="37">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="420" y="265"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="37" target="39">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" style="edgeStyle=none;html=1;entryX=0.001;entryY=0.498;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="45" target="30">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="-Xcsfi4YPZu8_xWbdzLf" name="Page-1">
-        <mxGraphModel dx="1040" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1072" dy="347" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -10,7 +10,7 @@
                 <mxCell id="3" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="2" vertex="1">
                     <mxGeometry x="85" y="50" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="Membuka halaman Contract" style="rounded=1;whiteSpace=wrap;html=1;" parent="2" vertex="1">
+                <mxCell id="4" value="Pilih fitur contract" style="rounded=1;whiteSpace=wrap;html=1;" parent="2" vertex="1">
                     <mxGeometry x="40" y="110" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="5" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="2" source="3" target="4" edge="1">
@@ -18,22 +18,22 @@
                         <mxPoint x="100" y="110" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="6" value="Tekan tombol pengaturan (detail contract) pada salah satu tipe unit price di halaman data contract" style="rounded=1;whiteSpace=wrap;html=1;" parent="2" vertex="1">
+                <mxCell id="6" value="Tekan tombol setting (detail contract) pada salah satu tipe unit price di halaman data contract" style="rounded=1;whiteSpace=wrap;html=1;" parent="2" vertex="1">
                     <mxGeometry x="35" y="210" width="130" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="33" value="" style="edgeStyle=none;html=1;" edge="1" parent="2" source="30" target="32">
+                <mxCell id="33" value="" style="edgeStyle=none;html=1;" parent="2" source="30" target="32" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="30" value="Pilih week" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+                <mxCell id="30" value="Pilih week" style="rounded=1;whiteSpace=wrap;html=1;" parent="2" vertex="1">
                     <mxGeometry x="40" y="511" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="32" value="Masukkan plan progress (%)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+                <mxCell id="32" value="Masukkan plan progress (%)" style="rounded=1;whiteSpace=wrap;html=1;" parent="2" vertex="1">
                     <mxGeometry x="40" y="610" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="17" value="Pilih SPK" style="rounded=1;whiteSpace=wrap;html=1;" parent="2" vertex="1">
                     <mxGeometry x="40" y="420" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" value="" style="edgeStyle=none;html=1;" edge="1" parent="2" source="17" target="30">
+                <mxCell id="31" value="" style="edgeStyle=none;html=1;" parent="2" source="17" target="30" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="7" value="Sistem" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -76,6 +76,11 @@
                 <mxCell id="20" value="" style="edgeStyle=none;html=1;" parent="7" source="21" target="23" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
+                <mxCell id="39" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="20">
+                    <mxGeometry x="-0.1782" y="3" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
                 <mxCell id="21" value="Validasi Data" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="7" vertex="1">
                     <mxGeometry x="52" y="805" width="110" height="70" as="geometry"/>
                 </mxCell>
@@ -83,13 +88,10 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="23" value="Menyimpan data progress pekerjaan" style="rounded=1;whiteSpace=wrap;html=1;" parent="7" vertex="1">
-                    <mxGeometry x="47" y="900" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="24" value="Ya" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="7" vertex="1">
-                    <mxGeometry x="107" y="870" width="40" height="30" as="geometry"/>
+                    <mxGeometry x="47" y="930" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="25" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="7" vertex="1">
-                    <mxGeometry x="92" y="990" width="30" height="30" as="geometry"/>
+                    <mxGeometry x="92" y="1020" width="30" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="26" value="" style="edgeStyle=none;html=1;" parent="7" source="16" target="18" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -108,19 +110,19 @@
                 <mxCell id="15" value="" style="edgeStyle=none;html=1;" parent="1" source="6" target="9" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="37" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="34" target="36">
+                <mxCell id="37" value="" style="edgeStyle=none;html=1;" parent="1" source="34" target="36" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="34" value="Masukkan actual progress (%)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="34" value="Masukkan actual progress (%)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="80" y="790" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="35" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="32" target="34">
+                <mxCell id="35" value="" style="edgeStyle=none;html=1;" parent="1" source="32" target="34" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="38" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="36" target="21">
+                <mxCell id="38" value="" style="edgeStyle=none;html=1;" parent="1" source="36" target="21" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="36" value="Unggah file progress" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="36" value="Unggah file progress" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="80" y="890" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="27" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="18" target="17" edge="1">

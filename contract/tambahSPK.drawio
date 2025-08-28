@@ -1,16 +1,16 @@
 <mxfile host="65bd71144e">
     <diagram id="4GXs-X-cCJMB56b3TxoA" name="Page-1">
-        <mxGraphModel dx="1280" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1649" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="3" value="User" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="120" y="120" width="200" height="1570" as="geometry"/>
+                    <mxGeometry x="120" y="120" width="200" height="1640" as="geometry"/>
                 </mxCell>
                 <mxCell id="4" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="3" vertex="1">
                     <mxGeometry x="85" y="50" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="Membuka halaman Contract" style="rounded=1;whiteSpace=wrap;html=1;" parent="3" vertex="1">
+                <mxCell id="5" value="Pilih fitur contract" style="rounded=1;whiteSpace=wrap;html=1;" parent="3" vertex="1">
                     <mxGeometry x="40" y="110" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="6" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="3" source="4" target="5" edge="1">
@@ -18,38 +18,38 @@
                         <mxPoint x="100" y="110" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="7" value="Tekan tombol pengaturan (detail contract) pada salah satu data yang&amp;nbsp;&lt;div&gt;ber-tipe (unit price)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="3" vertex="1">
+                <mxCell id="7" value="Tekan tombol setting (detail contract) pada salah satu data yang&amp;nbsp;&lt;div&gt;ber-tipe (unit price)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="3" vertex="1">
                     <mxGeometry x="40" y="210" width="120" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="13" value="Memilih tombol tambah pada fitur SPK di halaman detail contract" style="rounded=1;whiteSpace=wrap;html=1;" parent="3" vertex="1">
                     <mxGeometry x="40" y="320" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="33" value="" style="edgeStyle=none;html=1;" edge="1" parent="3" source="30" target="32">
+                <mxCell id="33" value="" style="edgeStyle=none;html=1;" parent="3" source="30" target="32" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="30" value="Masukkan No. SPK" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+                <mxCell id="30" value="Masukkan No. SPK" style="rounded=1;whiteSpace=wrap;html=1;" parent="3" vertex="1">
                     <mxGeometry x="40" y="420" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="35" value="" style="edgeStyle=none;html=1;" edge="1" parent="3" source="32" target="34">
+                <mxCell id="35" value="" style="edgeStyle=none;html=1;" parent="3" source="32" target="34" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="32" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Masukkan&amp;nbsp;&lt;/span&gt;Judul SPK" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+                <mxCell id="32" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Masukkan&amp;nbsp;&lt;/span&gt;Judul SPK" style="rounded=1;whiteSpace=wrap;html=1;" parent="3" vertex="1">
                     <mxGeometry x="40" y="520" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="34" value="Pilih tanggal mulai SPK" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+                <mxCell id="34" value="Pilih tanggal mulai SPK" style="rounded=1;whiteSpace=wrap;html=1;" parent="3" vertex="1">
                     <mxGeometry x="40" y="620" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="53" value="" style="edgeStyle=none;html=1;" edge="1" parent="3" source="50" target="52">
+                <mxCell id="53" value="" style="edgeStyle=none;html=1;" parent="3" source="50" target="52" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="50" value="Masukkan nilai penagihan" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+                <mxCell id="50" value="Masukkan nilai penagihan" style="rounded=1;whiteSpace=wrap;html=1;" parent="3" vertex="1">
                     <mxGeometry x="40" y="1230" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="52" value="Unggah bukti pembayaran" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+                <mxCell id="52" value="Unggah bukti pembayaran" style="rounded=1;whiteSpace=wrap;html=1;" parent="3" vertex="1">
                     <mxGeometry x="40" y="1330" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="8" value="Sistem" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="320" y="120" width="280" height="1570" as="geometry"/>
+                    <mxGeometry x="320" y="120" width="280" height="1640" as="geometry"/>
                 </mxCell>
                 <mxCell id="9" value="Menampilkan halaman Contract" style="rounded=1;whiteSpace=wrap;html=1;" parent="8" vertex="1">
                     <mxGeometry x="80" y="110" width="120" height="60" as="geometry"/>
@@ -60,7 +60,7 @@
                 <mxCell id="18" value="Menampilkan formulir tambah data SPK" style="rounded=1;whiteSpace=wrap;html=1;" parent="8" vertex="1">
                     <mxGeometry x="80" y="320" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="60" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.491;entryY=0.028;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="8" source="46" target="58">
+                <mxCell id="60" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.491;entryY=0.028;entryDx=0;entryDy=0;entryPerimeter=0;" parent="8" source="46" target="58" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="190" y="1160"/>
@@ -69,13 +69,23 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="46" value="Validasi data" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="8">
+                <mxCell id="68" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="60">
+                    <mxGeometry x="0.0361" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="46" value="Validasi data" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="8" vertex="1">
                     <mxGeometry x="60" y="1120" width="110" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="63" value="" style="edgeStyle=none;html=1;" edge="1" parent="8" source="58" target="62">
+                <mxCell id="63" value="" style="edgeStyle=none;html=1;" parent="8" source="58" target="62" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="65" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="8" source="58" target="18">
+                <mxCell id="70" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="63">
+                    <mxGeometry x="-0.0133" y="3" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="65" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="8" source="58" target="18" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="230" y="1360"/>
@@ -83,14 +93,22 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="58" value="Validasi data" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="8">
+                <mxCell id="69" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="65">
+                    <mxGeometry x="-0.9461" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="58" value="Validasi data" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="8" vertex="1">
                     <mxGeometry x="70" y="1320" width="110" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="61" value="Tidak" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="8">
-                    <mxGeometry x="143" y="1216" width="50" height="30" as="geometry"/>
+                <mxCell id="72" value="" style="edgeStyle=none;html=1;" edge="1" parent="8" source="62" target="71">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="62" value="Menyimpan data SPK" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8">
+                <mxCell id="62" value="Menyimpan data SPK" style="rounded=1;whiteSpace=wrap;html=1;" parent="8" vertex="1">
                     <mxGeometry x="65" y="1460" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="8">
+                    <mxGeometry x="110" y="1580" width="30" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="15" value="" style="edgeStyle=none;html=1;" parent="1" source="5" target="9" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -117,7 +135,7 @@
                 <mxCell id="19" value="" style="edgeStyle=none;html=1;" parent="1" source="13" target="18" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="18" target="30">
+                <mxCell id="31" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="18" target="30" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="460" y="520"/>
@@ -125,40 +143,40 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="39" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="36" target="38">
+                <mxCell id="39" value="" style="edgeStyle=none;html=1;" parent="1" source="36" target="38" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="36" value="Pilih tanggal berakhir SPK" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="36" value="Pilih tanggal berakhir SPK" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="160" y="840" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="37" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="34" target="36">
+                <mxCell id="37" value="" style="edgeStyle=none;html=1;" parent="1" source="34" target="36" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="41" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="38" target="40">
+                <mxCell id="41" value="" style="edgeStyle=none;html=1;" parent="1" source="38" target="40" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="38" value="Masukkan Nilai SPK" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="38" value="Masukkan Nilai SPK" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="160" y="940" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="43" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="40" target="42">
+                <mxCell id="43" value="" style="edgeStyle=none;html=1;" parent="1" source="40" target="42" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="40" value="Unggah dokumen SPK" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="40" value="Unggah dokumen SPK" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="160" y="1040" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="45" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="42" target="44">
+                <mxCell id="45" value="" style="edgeStyle=none;html=1;" parent="1" source="42" target="44" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="42" value="Pilih status SPK" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="42" value="Pilih status SPK" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="160" y="1140" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="47" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="44" target="46">
+                <mxCell id="47" value="" style="edgeStyle=none;html=1;" parent="1" source="44" target="46" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="44" value="Pilih status penagihan" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="44" value="Pilih status penagihan" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="160" y="1250" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="55" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="46" target="50">
+                <mxCell id="55" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="46" target="50" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="435" y="1330"/>
@@ -166,17 +184,13 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="56" value="Ya" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="350" y="1308" width="40" height="30" as="geometry"/>
+                <mxCell id="67" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="55">
+                    <mxGeometry x="-0.1461" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="59" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="52" target="58">
+                <mxCell id="59" value="" style="edgeStyle=none;html=1;" parent="1" source="52" target="58" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="64" value="Ya" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="440" y="1528" width="40" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="66" value="Tidak" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="504" y="1456" width="50" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

@@ -1,51 +1,51 @@
 <mxfile host="65bd71144e">
     <diagram id="uKC25-JIow0MuAVm9tWb" name="Page-1">
-        <mxGraphModel dx="1360" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1191" dy="441" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="6" value="User" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+                <mxCell id="6" value="User" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
                     <mxGeometry x="120" y="110" width="200" height="530" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="Membuka halaman COI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6">
+                <mxCell id="7" value="Pilih fitur COI" style="rounded=1;whiteSpace=wrap;html=1;" parent="6" vertex="1">
                     <mxGeometry x="50" y="140" width="100" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="6">
+                <mxCell id="8" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="6" vertex="1">
                     <mxGeometry x="85" y="70" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6" source="8" target="7">
+                <mxCell id="9" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="6" source="8" target="7" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="100" y="160" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="10" value="" style="edgeStyle=none;html=1;" edge="1" parent="6" source="11" target="12">
+                <mxCell id="10" value="" style="edgeStyle=none;html=1;" parent="6" source="11" target="12" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="Tandai data COI yang ingin di unduh" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6">
+                <mxCell id="11" value="Tandai data COI yang ingin di download" style="rounded=1;whiteSpace=wrap;html=1;" parent="6" vertex="1">
                     <mxGeometry x="50" y="230" width="100" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="Pilih tombol download" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6">
+                <mxCell id="12" value="Pilih tombol download file COI" style="rounded=1;whiteSpace=wrap;html=1;" parent="6" vertex="1">
                     <mxGeometry x="50" y="320" width="100" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="Sistem" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+                <mxCell id="13" value="Sistem" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
                     <mxGeometry x="320" y="110" width="200" height="530" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="Menampilkan halaman COI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="13">
+                <mxCell id="14" value="Menampilkan halaman COI" style="rounded=1;whiteSpace=wrap;html=1;" parent="13" vertex="1">
                     <mxGeometry x="50" y="140" width="100" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="" style="edgeStyle=none;html=1;" edge="1" parent="13" source="16" target="17">
+                <mxCell id="15" value="" style="edgeStyle=none;html=1;" parent="13" source="16" target="17" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="Data berhasil terunduh" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="13">
+                <mxCell id="16" value="Data berhasil terunduh" style="rounded=1;whiteSpace=wrap;html=1;" parent="13" vertex="1">
                     <mxGeometry x="50" y="320" width="100" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="13">
+                <mxCell id="17" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="13" vertex="1">
                     <mxGeometry x="85" y="410" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="7" target="14">
+                <mxCell id="18" value="" style="edgeStyle=none;html=1;" parent="1" source="7" target="14" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" value="" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="14" target="11">
+                <mxCell id="19" value="" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="14" target="11" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="420" y="320"/>
@@ -53,7 +53,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="20" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="12" target="16">
+                <mxCell id="20" value="" style="edgeStyle=none;html=1;" parent="1" source="12" target="16" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
             </root>
